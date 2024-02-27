@@ -19,3 +19,19 @@ They are used to define characters of elements.
 All html tags have some attributes with some default values
 Attributes are usually made up of two parts the name and the value, name="value".
 For example if you want to change the background color to red, your bgclor will be your name and value red
+Aria Roles(Accessible Rich Internet Applicatiom)
+Defines a way to make web content and web applications more accessible to people with disabilities.
+Aria attributes are used or are added to the markup to better communicate control, names, roles and state information , with the aim of supporting people with disabilities that are using assistative technology usage.
+Unusul characters 
+In html some characters are special due to their reserved roles in the markup language.
+Character entities represent special characters using entities for example &lt, for <.
+UTF-8 Encoding : use proper character encoding for your html document.
+Html navigation and linking
+Html links are also known as hyperlinks, they allow you to navigate from one web page to another or different sections within the same page.
+When we want to create a link we use the a element which stands for anchor.
+To do this we need a href attribute with a URL enclosed in quotes.
+Href stands for hypertext referencing.
+The most important attribute of the <a>element is the href attribute which indicates the links destination.
+Absolute URL contain the the full web address including the protocol, domain and path.They specify tha exact location of a resource on the internet
+Relative URL, are specified in relation to the current pages URL, they only include the path to the resource making their shorter
+URLs are often uses within the same Website to link the pages or resources within the site
