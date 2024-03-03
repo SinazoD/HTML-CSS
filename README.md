@@ -35,3 +35,13 @@ The most important attribute of the <a>element is the href attribute which indic
 Absolute URL contain the the full web address including the protocol, domain and path.They specify tha exact location of a resource on the internet
 Relative URL, are specified in relation to the current pages URL, they only include the path to the resource making their shorter
 URLs are often uses within the same Website to link the pages or resources within the site
+Html-Working with graphics and images 
+When we want to add an image we use the image element which is simply written as img.
+We use the following syntax to add an image
+<img src= "img.jpg"alt"brown dog" width "400” height "300"
+There are four attributes you need to for every image:
+The first one is the (src), which tells the browser which image file to load or path to the image
+The second one is the (alt),which provides the description of the image. It identifies what is going tk show up if the image can't be found
+Lastly, we have the width and the height attributes, which identifies the size of the image
+There are four file fomarts commonly used in nowadays, each with it's own strengths and weaknesses when it comes to compressing images:
+GIF,SVG,JPG,PNG.                     
