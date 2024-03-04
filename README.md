@@ -44,4 +44,14 @@ The first one is the (src), which tells the browser which image file to load or 
 The second one is the (alt),which provides the description of the image. It identifies what is going tk show up if the image can't be found
 Lastly, we have the width and the height attributes, which identifies the size of the image
 There are four file fomarts commonly used in nowadays, each with it's own strengths and weaknesses when it comes to compressing images:
-GIF,SVG,JPG,PNG.                     
+GIF,SVG,JPG,PNG.                    
+Working with media
+The audio element has both opening and closing tag unlike the image element
+It uses the src attribute to provide the URL of the audio file
+The following is the audio element:
+<auio controls src "audio.mp3"></audio>
+Working with videos
+The video element has both opening and closing tag.
+It's element is as follows:
+<video src=video.mp4>
+<embeded> is a tag that causes the browser itself to include the controls for the multimedia to automatically provide browser support.
