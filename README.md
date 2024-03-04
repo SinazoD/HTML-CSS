@@ -55,3 +55,15 @@ The video element has both opening and closing tag.
 It's element is as follows:
 <video src=video.mp4>
 <embeded> is a tag that causes the browser itself to include the controls for the multimedia to automatically provide browser support.
+Html content Identification
+The lang attribute is used to specify the language of the website.
+It's syntax or element is as follows
+<html lang ="en-us">
+The en-us is the lang attribute that means U.S english
+DIVS AND SPAN
+The div tag is used to make divisions of the content on web pages like text, images, header, footer, navigation bar etc
+It is used as a block part of the webpages
+Div element takes all the available width
+The html span element is a generic inline container for inline elements and content
+It is used to group elements for styling purposes(by using the class or Id attribute)
+The span is used as a inline part.
