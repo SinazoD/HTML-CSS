@@ -75,3 +75,53 @@ CSS syntax:
 CSS has two parts:
 The selector-which points to the html elements you want to style.
 The declaration box- which contains one or more declarations separated by a semicolon.
+CSS Selectors
+CSS selectors are patterns used to select the Html elements you want to style.
+CSS selectors can be divided into five categories:
+Simple selectors
+Combinator selectors
+Pseudo class selectors
+Pseudo element selectors
+Attribute selectors
+The CSS element selectors.
+The element selector selects the html elements based on the element name.
+Example:  p: {text-align: center; color: blue;}
+Here all the <p> elements will be center aligned, with a blue text color.
+The CSS Id select:
+The Id selector selects the html element with specific Id attribute.
+It is written with the (#) character, followed by the Id of the element.
+Example: #para1 {text-align: center; color: blue;}
+The rule will be applied to the html element with id=para1
+The CSS class selector
+The CSS class Selector selects the Html elements with a specific class attribute.
+To select elements with specific class, write a period character (.), followed by the class name.
+Example:  .class1 {text-align: center; color: blue;}
+The rule will be applied to the html element with class= class1.
+Grouping selectors
+The group selector is used to select all the elements with the same style definition.
+Commas are used to separate each selector in grouping.
+Example:   h1, h2, p {text-align: center; color: blue; }
+The best way is to minimize the code.
+CSS Images & Colours
+The background-color property sets the background color of an element. It applies to the entire size of the element, including padding and border (but not the margin). 
+ To ensure readability, choose a background color that contrasts well with the text color. 
+The syntax for setting the background color:
+               body {background-color: rgb(red, green, blue);} 
+Altering the color of the text can add visual interest or align with a specific design scheme. The color property is used to set the color of the text.  
+The syntax for setting the text color:   .my-text {color: #FF5733;  }
+Understanding Images in CSS
+ JPEG (Joint Photographic Experts Group): It uses lossy compression, meaning that the image quality may be slightly degraded in order to reduce file size.
+PNG (Portable Network Graphics): PNG images use lossless compression, meaning that image quality is preserved without sacrificing file size. 
+GIF (Graphics Interchange Format): GIF images support transparency and animation, making them popular for memes and social media content.
+The syntax for setting the back-ground image:
+       body{
+
+          background-image:url(‘the.png’);
+
+          }
+CSS Boxes, Sizes & Types
+
+The fonts, height, width, margins, padding, etc. are set on a web page with the length units. For example, height 100px, width 100px, font 2em, etc. 
+These length units are categorised into Absolute and Relative Units.
+CSS uses a box model to define the size of elements on a web page. 
+Styling Links in CSS
