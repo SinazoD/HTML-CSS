@@ -67,3 +67,7 @@ Div element takes all the available width
 The html span element is a generic inline container for inline elements and content
 It is used to group elements for styling purposes(by using the class or Id attribute)
 The span is used as a inline part.
+INTRODUCTION TO CSS
+CSS is used to make web pages look better and more appealing.
+It stands for Cascading Style Sheets.
+We can style the web pages by changing fonts, colors and spacing.
