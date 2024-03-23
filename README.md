@@ -71,3 +71,7 @@ INTRODUCTION TO CSS
 CSS is used to make web pages look better and more appealing.
 It stands for Cascading Style Sheets.
 We can style the web pages by changing fonts, colors and spacing.
+CSS syntax:
+CSS has two parts:
+The selector-which points to the html elements you want to style.
+The declaration box- which contains one or more declarations separated by a semicolon.
