@@ -66,6 +66,27 @@ It is used as a block part of the webpages
 Div element takes all the available width
 The html span element is a generic inline container for inline elements and content
 It is used to group elements for styling purposes(by using the class or Id attribute)
+ WORKING WITH FORMS AND INTERACTIVE ELEMENTS
+ An html form is used to collect user input.The user input is then sent to a server for processing.
+ The html form element is used to create an html form for user input.
+ The form element is a customer for different types of input elements: text fields, checkboxes, radio buttons, submit buttons etc
+ Input elememt is the most used form element.
+ Examples:
+ Input type="text" displays a single line text input field.
+ Input type="radio" displays a radio button for selection of one of many choices.
+Input type="checkboxes" displays a checkbox for selecting zero or more of many choices.
+Input type="submit" displays a submit button for submitting a form.
+Input type="button" displays a declarable button.
+ORGANAZING TABULAR INFORMATION IN HTML
+BUILDING TABLES IN HTML:
+ HTML tables allow web developers to arrange data into rows and columns.
+To create ana html table, you use several different HTML elements in just the right combination.
+Table:wraps the whole table.
+Table row(TR):wraps around a set of elements, defining them as belonging to the same row.
+Table header: Defines the header of the column.
+Table data:marks the actual bits of data.
+Html table can have different sizes of each comn row or entire table.
+We use the style attribute with the width or height properties to specify the size of a table, row or column.
 The span is used as a inline part.
 INTRODUCTION TO CSS
 CSS is used to make web pages look better and more appealing.
@@ -87,7 +108,7 @@ The CSS element selectors.
 The element selector selects the html elements based on the element name.
 Example:  p: {text-align: center; color: blue;}
 Here all the <p> elements will be center aligned, with a blue text color.
-The CSS Id select:
+The CSS Id selector:
 The Id selector selects the html element with specific Id attribute.
 It is written with the (#) character, followed by the Id of the element.
 Example: #para1 {text-align: center; color: blue;}
